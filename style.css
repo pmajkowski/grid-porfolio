@@ -74,3 +74,11 @@ section img {
 .photography h2 {
     margin-bottom: 20px;
 }
+@media (min-width: 736px) {
+    main {
+        display: flex;
+    }
+    .photography img {
+        align-self: flex-end;
+    }
+}
